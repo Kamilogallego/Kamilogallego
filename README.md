@@ -6,6 +6,7 @@ Desarrollo software con interés en aplicaciones web, servicios backend y Java. 
 
 | Proyecto | Qué encontrarás | Tecnologías |
 | --- | --- | --- |
+| [Coyote Salón Social — sitio en producción](https://coyotesalonsocial.com/) | Proyecto para cliente con página pública y sistema de fidelización de clientes. El código se encuentra en un repositorio privado de la empresa. | HTML, CSS, JavaScript, Node.js, Express, PostgreSQL |
 | [Fundación Huahuacuna](https://github.com/Kamilogallego/Huahuacuna-Code) | Aplicación web con páginas públicas, formularios, acceso de usuarios y vistas de administración. | Next.js, React, TypeScript, Tailwind CSS |
 | [Servicio de donaciones](https://github.com/Kamilogallego/backend) | Servicio backend para Huahuacuna. | NestJS, TypeScript, Prisma |
 | [Servicio de autenticación](https://github.com/Kamilogallego/client) | Servicio de autenticación separado de la aplicación web. | NestJS, TypeScript, Prisma |
@@ -14,7 +15,7 @@ Desarrollo software con interés en aplicaciones web, servicios backend y Java. 
 ## Tecnologías que he usado
 
 **Frontend:** HTML, CSS, JavaScript, TypeScript, React, Next.js y Tailwind CSS  
-**Backend y datos:** Node.js, NestJS, Prisma, Java, JPA y MySQL  
+**Backend y datos:** Node.js, Express, PostgreSQL, NestJS, Prisma, Java, JPA y MySQL  
 **Herramientas:** Git y GitHub
 
 ## Sobre mí
