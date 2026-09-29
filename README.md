@@ -2,6 +2,8 @@
 
 Desarrollo software con interés en aplicaciones web, servicios backend y Java. Aquí reúno proyectos que muestran cómo organizo código, construyo interfaces y trabajo con datos.
 
+📧 [kamilogallegoescalante@gmail.com](mailto:kamilogallegoescalante@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/camilo-gallego00/)
+
 ## Proyectos destacados
 
 | Proyecto | Qué encontrarás | Tecnologías |
