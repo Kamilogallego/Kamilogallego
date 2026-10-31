@@ -13,11 +13,11 @@ La guía fija la entrega el 29 de octubre de 2026 a las 11:59 p. m. Este trabajo
 - [Guía original sin modificar](docs/pruebas/actividades/semana4/Guia_Original_TDD_BDD.md).
 - [Evidencia real de las ejecuciones](docs/pruebas/actividades/semana4/evidencias/).
 
-**Enlace para entregar en Moodle:**
+**Enlace previsto para entregar en Moodle, después de publicar y comprobar acceso:**
 
 https://github.com/Kamilogallego/Kamilogallego/tree/actividad-tdd-bdd-semana4
 
-La actividad está en la rama `actividad-tdd-bdd-semana4` del repositorio personal. Al revisarla o descargarla, seleccionar esa rama. La rama `main` conserva el perfil existente.
+La actividad está preparada en la rama local `actividad-tdd-bdd-semana4`. La publicación en GitHub está pendiente de una sesión con permiso de escritura. Al publicarla, revisarla o descargarla, seleccionar esa rama. La rama `main` conserva el perfil existente.
 
 ## Descripción
 
