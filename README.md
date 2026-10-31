@@ -12,12 +12,13 @@ La guía fija la entrega el 29 de octubre de 2026 a las 11:59 p. m. Este trabajo
 - [Excel con 12 casos y las cuatro categorías](docs/pruebas/actividades/semana4/Casos_de_Prueba_JuanCamiloGalego.xlsx).
 - [Guía original sin modificar](docs/pruebas/actividades/semana4/Guia_Original_TDD_BDD.md).
 - [Evidencia real de las ejecuciones](docs/pruebas/actividades/semana4/evidencias/).
+- [Historial Git original del ciclo TDD](Historial_TDD.bundle), conservado en un archivo Git bundle descargable.
 
-**Enlace previsto para entregar en Moodle, después de publicar y comprobar acceso:**
+**Enlace para entregar en Moodle:**
 
 https://github.com/Kamilogallego/Kamilogallego/tree/actividad-tdd-bdd-semana4
 
-La actividad está preparada en la rama local `actividad-tdd-bdd-semana4`. La publicación en GitHub está pendiente de una sesión con permiso de escritura. Al publicarla, revisarla o descargarla, seleccionar esa rama. La rama `main` conserva el perfil existente.
+La actividad se consulta en la rama `actividad-tdd-bdd-semana4` del repositorio personal. Al revisarla o descargarla, seleccionar esa rama. La rama `main` conserva el perfil existente.
 
 ## Descripción
 
@@ -68,7 +69,15 @@ La función `minutosRestantes(bloqueadaHasta, ahoraMs)` calcula el tiempo restan
 2. **Verde:** se implementó `Math.max(0, bloqueadaHasta - ahoraMs) / 60000`; pasó la prueba. [Salida, código 0](docs/pruebas/actividades/semana4/evidencias/02-verde.txt).
 3. **Refactor:** se nombraron la constante de conversión y los milisegundos restantes sin cambiar el comportamiento. La misma prueba continuó pasando. [Salida, código 0](docs/pruebas/actividades/semana4/evidencias/03-refactor.txt).
 
-Cada paso tiene su propio commit. Después se añadieron pruebas de los límites y la implementación BDD. [Ver historial](https://github.com/Kamilogallego/Kamilogallego/commits/actividad-tdd-bdd-semana4/).
+Cada paso tiene su propio commit original. Después se añadieron pruebas de los límites y la implementación BDD. Estos commits se conservan en [Historial_TDD.bundle](https://github.com/Kamilogallego/Kamilogallego/blob/actividad-tdd-bdd-semana4/Historial_TDD.bundle). La publicación de los archivos en GitHub se agrupa en un commit de entrega; el bundle permite revisar los estados originales de rojo, verde y refactor.
+
+Descargar `Historial_TDD.bundle` desde GitHub y ejecutar en la carpeta donde se guardó:
+
+```sh
+git clone --branch actividad-tdd-bdd-semana4 Historial_TDD.bundle revision-tdd
+cd revision-tdd
+git log --oneline
+```
 
 Para repetir la prueba en cada estado, obtener su identificador con `git log --oneline`, abrir ese commit en una carpeta de trabajo aparte, instalar con `npm ci` y ejecutar `node node_modules/jest/bin/jest.js --runInBand --verbose tests/unit/tiempo-bloqueo.test.js`. El estado rojo debe fallar y los otros dos deben pasar. Las marcas de tiempo y duraciones serán distintas de la evidencia guardada.
 
@@ -119,6 +128,7 @@ tests/bdd/
   bloqueo-cuenta.feature
   bloqueo-cuenta.steps.js
 Entrega_TDD_BDD_JuanCamiloGalego.html
+Historial_TDD.bundle
 ```
 
 ## Documentación consultada
