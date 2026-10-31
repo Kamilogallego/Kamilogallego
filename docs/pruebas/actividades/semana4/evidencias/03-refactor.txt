@@ -1,0 +1,17 @@
+Ejecución real (UTC): 2026-10-31T11:47:28.006Z
+Fecha local (America/Bogota): sábado, 31 de octubre de 2026, 6:47:28 a. m. COT
+Node: v24.16.0
+Comando: node node_modules/jest/bin/jest.js --runInBand --verbose tests/unit/tiempo-bloqueo.test.js
+Código de salida: 0
+
+--- SALIDA ESTÁNDAR ---
+
+
+
+--- SALIDA DE ERRORES / JEST ---
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.978 s
+Ran all test suites matching tests/unit/tiempo-bloqueo.test.js.
