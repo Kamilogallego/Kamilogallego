@@ -1,0 +1,33 @@
+Ejecución real (UTC): 2026-10-31T11:46:28.756Z
+Fecha local (America/Bogota): sábado, 31 de octubre de 2026, 6:46:28 a. m. COT
+Node: v24.16.0
+Comando: node node_modules/jest/bin/jest.js --runInBand --verbose tests/unit/tiempo-bloqueo.test.js
+Código de salida: 1
+
+--- SALIDA ESTÁNDAR ---
+
+
+
+--- SALIDA DE ERRORES / JEST ---
+
+FAIL tests/unit/tiempo-bloqueo.test.js
+  ● Test suite failed to run
+
+    Cannot find module '../../src/tiempo-bloqueo' from 'tests/unit/tiempo-bloqueo.test.js'
+
+      1 | const { minutosRestantes } = require('../../src/tiempo-bloqueo');
+      2 |
+    > 3 | describe('CP-08: cálculo de minutos restantes del bloqueo', () => {
+        |     ^
+      4 |   test('después de 30 segundos quedan 14,5 minutos de los 15 iniciales', () => {
+      5 |     const inicio = Date.UTC(2026, 9, 31, 12, 0, 0);
+      6 |     const bloqueadaHasta = inicio + 15 * 60 * 1000;
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:1031:11)
+      at Object.<anonymous> (tests/unit/tiempo-bloqueo.test.js:3:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.101 s
+Ran all test suites matching tests/unit/tiempo-bloqueo.test.js.
