@@ -1,0 +1,18 @@
+{
+  "name": "actividad-individual-tdd-bdd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Escenario C: bloqueo temporal de cuenta, TDD y BDD",
+  "scripts": {
+    "test": "jest --runInBand --verbose",
+    "test:unit": "jest --runInBand --verbose tests/unit",
+    "test:bdd": "jest --runInBand --verbose tests/bdd"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "jest": "30.5.2",
+    "jest-cucumber": "4.5.0"
+  }
+}

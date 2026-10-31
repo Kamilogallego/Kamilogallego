@@ -1,0 +1,17 @@
+Ejecución real (UTC): 2026-10-31T11:48:10.328Z
+Fecha local (America/Bogota): sábado, 31 de octubre de 2026, 6:48:10 a. m. COT
+Node: v24.16.0
+Comando: node node_modules/jest/bin/jest.js --runInBand --verbose 
+Código de salida: 0
+
+--- SALIDA ESTÁNDAR ---
+
+
+
+--- SALIDA DE ERRORES / JEST ---
+
+Test Suites: 3 passed, 3 total
+Tests:       22 passed, 22 total
+Snapshots:   0 total
+Time:        1.427 s
+Ran all test suites.
